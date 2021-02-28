@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .square{
+            height: 50px;
+            width:  30px;
+            border: 2px solid black;
+        }
+        hr{
+            width: 140px;
+            font-weight: bolder;
+        }
+        .nav-item{
+           padding-left: 10px;
+        }
+        .secondlastdiv{
+            display: flex;
+            justify-content: space-between;
+        }
+        @media only screen and (max-width: 900px)
+        {
+           .secondlastdiv{
+               flex-direction: column;
+           }
+           .lastdiv{
+               display: none;
+           }
+           .divimg{
+               position: relative;
+               left: 0px;
+           }
+           .para1,.para2{
+               padding-left: 0px;
+               padding-right: 0px;
+           }
+           nav.a:hover{
+               background-color: red;
+           }
+           div.a:hover{
+               background-color: red;
+               color: green;
+           }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md py-0 bg-dark navbar-dark fixed-top">
+        <a href="#" class="navbar-brand">Beeing Geeky</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a style="animation-duration: 4s;" href="#Tutorials" class="nav-link text-white">Tutorials</a>
+            </li>
+            <li class="nav-item">
+                <a href="#video" class="nav-link text-white">video</a>
+            </li>
+            <li class="nav-item">
+                <a href="#coupuns" class="nav-link text-white">coupuns</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 style="font-weight: 500; margin-top: 200px; font-size: 60px;  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" class="text-center">Being Geeky</h1>
+        <h3 style="font-weight: 500; margin-top: 50px; font-size: 30px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"  class="text-center">Your own video and theortical study place.</h3>
+        <h5 style="line-height: 1.6; margin-top:50px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="monospace">
+            Being Geeky is one of the best platform for the online learning. With the best study material.Dummy text is text that is used in the publishing industry or by 
+            web designers to occupy the space which will later be filled with 'real' content.
+           This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. 
+           It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. 
+           Dummy texts have been in use by typesetters since the 16th century.
+        </h5>
+    </div>
+    <div class="conatiner-fluid" style="margin-top: 20%; background-color: rgb(71,111,112);">
+        <p style="margin: auto;" class="square"></p>
+        <h3 style="font-weight:500; font-weight: 500; color: white; font-size: 40px;margin-top: -50px;"  class="text-center">Documentation</h4>
+        <h3 style="font-weight: 500; color: white;" class="text-center">All genuine Documentation at one place</h3>
+        <div style="display:flex; text-align: center; justify-content: center;">
+        <p id="Tutorials" class="para1 text-center" style="padding-right: 0px; padding-left: 0px; line-height: 1.6; color: white;">
+            Being Geeky helps the viewer to find all the required documentation at one place so that
+             they need not waste time to find offical documentation. The most well-known dummy text is the 'Lorem Ipsum', 
+             which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more 
+             or less corresponds to 'proper' Latin. It contains a series of real Latin words. This ancient dummy text is also incomprehensible,
+              but it imitates the rhythm of most European languages in Latin script. The advantage of its Latin origin and the relative meaninglessness 
+              of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout.
+        </p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+        <button style="line-height: 1.6; margin-top: 10px;" class="btn btn-primary  mb">Start Your Trial Now</button>
+        </div>
+        <p class="text-center" style="color: white; margin-top: 10px;">You can download Being Geeky from app store or playstore.</p>
+        <img style=" border-radius: 10px; width: 20%;" class="mx-auto d-block" src="https://beinggeeky-hnip75cdkgvvk6vt.web.codequotient.com/public/ipad-app-mockup-03.png"  alt="image">
+        &nbsp;<br>&nbsp;
+    </div>
+    <div id="video" class="container">
+        <h3 class="text-center" style="margin-top: 10%;">The video lecture you shouldn't miss</h3>
+        <p style="line-height: 1.6; font-weight: 600; margin-top: 5%;">With one of the best content available online.And one of the best instructors it makes Being Geeky one of the best available learing platform available.he spread of computers and layout programmes thus made dummy text better known. While in earlier times several lines of the Lorem Ipsum text were repeated in the creation of dummy texts, today the full text of Cicero's 'De finibus' serves as the basis for many dummy text or Lorem Ipsum generators. Based on 'De finibus', these generators automatically create longer sections of the Lorem Ipsum text or various other filler texts.</p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+        <button  class="btn btn-primary mb">Read More</button>
+        </div>
+        <img style="margin-top: 5%; border-radius: 10px; width: 80vw;" class="mx-auto d-block" src="https://beinggeeky-hnip75cdkgvvk6vt.web.codequotient.com/public/lecture.jpg" alt="image2">
+    </div>
+    <div style="background-color:rgb(71,111,112); margin-top: 2%;" class="container-fluid">
+        &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+        <h3 style="color: white;" class="text-center">Lectures available anywhere anytime.</h3>
+        <p class="para2" style="margin-top: 20px; color: white; padding-left: 0px; padding-right: 0px;">You can watch the lecture anytime from anywhere and ask doubts.The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many DTP programmes can generate dummy text using the starting sequence "Lorem ipsum". Fortunately, the phrase 'Lorem Ipsum' is now recognized by electronic pre-press systems and, when found, an alarm can be raised. This avoids a publication going to print with overlooked dummy text.</p>
+    </div>
+    <div id="coupuns" class="secondlastdiv container">
+        <div>
+        <img class="image1" style="width: 80%; height: 80%; border-radius: 20%;" src="https://beinggeeky-hnip75cdkgvvk6vt.web.codequotient.com/public/coupon.jpg" alt="image3">
+        </div>
+        <div class="divimg" >
+            <h3>coupuns</h3>
+            <p>You can apply different coupons to get extra discount on selected courses.Certain internet providers exploit the fact that fill text cannot be recognized by automatic search engines - meaningful information cannot be distinguished from meaningless: Target-generated dummy text mixed with a certain combination of search terms can lead to an increased frequency of visits by search machine users. As a consequence, advertising revenues, which rely on website 'hits', are increased.</p>
+            <p>Already Have Coupuns</p>
+            <hr style="width: 100%; color: black;">
+            <a href="#" style="color: black; text-decoration: none;">Reddem</a>
+        </div>
+    </div>
+    <div style="margin-top: 20px; color: white; background-color: rgb(71,111,112);" class="lastdiv container-fluid">
+        <div style="display: flex; justify-content: space-evenly;">
+           <div>
+               <h6>Address</h6>
+               <hr style="font-weight: 400;">
+               <p>ZZZZ Workspace <br>
+                Street 43,building 4A <br>
+                Industrial Area <br>
+                Aqwertyu <br>
+                Mumbai</p>
+           </div>
+           <div>
+               <h6>Clients</h6>
+               <hr style="font-weight: 400;">
+               <p>XYZ org <br>
+                ABC org <br>
+                IJK org <br>
+                Qwerty Corp <br>
+                ZAQ PVT
+                </p>
+           </div>
+           <div>
+               <h6>Stack</h6>
+               <hr style="font-weight: 400;">
+               <p>HTML5,CSS,JS <br>
+                React <br>
+                Angular <br>
+                NodeJS <br>
+                Django</p>
+           </div>
+           <div>
+               <h6>About Being Geeky</h6>
+               <hr>
+               <p>About CEO <br>
+                About Team <br>
+                Location <br>
+                Working Atmosphere <br>
+                Contact Being Geeky</p>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
